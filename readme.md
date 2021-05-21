@@ -7,12 +7,7 @@
 - 인터넷 검색도 가능합니다. 단, 옆자리에 있는 지원자와 상의는 불가능합니다.
 
 - GQL 접속정보
-    - [https://4ofastjhdnbmzns26lppkx2qpu.appsync-api.ap-northeast-2.amazonaws.com/graphql](https://4ofastjhdnbmzns26lppkx2qpu.appsync-api.ap-northeast-2.amazonaws.com/graphql)
-    - Header에 Token정보를 입력해야 하며, Key/value 값은 아래 정보를 참조하여 호출하세요.
-
-    ```
-    x-api-key: da2-5lgtgu5ainh2djxdv2pkp6boxm
-    ```
+    - [https://api.spacex.land/graphql/](https://api.spacex.land/graphql/)
 
 ## 평가 기준
 - REST API 와 다르게 사용해보지 않은 GQL 학습 능력 및 사용 능력 확인
