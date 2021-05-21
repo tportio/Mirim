@@ -6,8 +6,9 @@
 - 개발언어 제약사항 없습니다. 가장 자신있는 언어를 선택해서 진행하세요.
 - 인터넷 검색도 가능합니다. 단, 옆자리에 있는 지원자와 상의는 불가능합니다.
 
-- GQL 접속정보
+- GQL 접속정보 (택일)
     - [https://api.spacex.land/graphql/](https://api.spacex.land/graphql/)
+    - [https://rickandmortyapi.com/graphql](https://rickandmortyapi.com/graphql)
 
 ## 평가 기준
 - REST API 와 다르게 사용해보지 않은 GQL 학습 능력 및 사용 능력 확인
