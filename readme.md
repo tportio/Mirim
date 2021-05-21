@@ -15,6 +15,6 @@
     - [https://4ofastjhdnbmzns26lppkx2qpu.appsync-api.ap-northeast-2.amazonaws.com/graphql](https://4ofastjhdnbmzns26lppkx2qpu.appsync-api.ap-northeast-2.amazonaws.com/graphql)
     - Header에 Token정보를 입력해야 하며, Key/value 값은 아래 정보를 참조하여 호출하세요.
 
-    ```jsx
+    ```
     x-api-key: da2-5lgtgu5ainh2djxdv2pkp6boxm
     ```
