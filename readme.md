@@ -9,7 +9,7 @@
 - GQL 접속정보
     - [https://4ofastjhdnbmzns26lppkx2qpu.appsync-api.ap-northeast-2.amazonaws.com/graphql](https://4ofastjhdnbmzns26lppkx2qpu.appsync-api.ap-northeast-2.amazonaws.com/graphql)
     - Header에 Token정보를 입력해야 하며, Key/value 값은 아래 정보를 참조하여 호출하세요.
-
+    - GQL Schema 확인 및 TEST Query는 index.html 파일을 통해서 확인해 볼 수 있습니다.
     ```
     x-api-key: da2-5lgtgu5ainh2djxdv2pkp6boxm
     ```
