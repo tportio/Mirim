@@ -1,0 +1,14 @@
+#main{
+    text-align: center;
+    border-radius: 15px 15px 15px 0; 
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 5px solid #B9C4C4; 
+    padding: 1em; 
+    background: #CEDADA
+} 
+
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}

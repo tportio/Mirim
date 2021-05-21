@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Graduation Showing</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+        <div style="text-align : center;">
+          <ul class="navbar_first">
+            <li><a href="main.html">학교</a></li> 
+            <li><a href="student.html">학생</a></li> 
+            <li><a href="work.html">작품</a></li> 
+        </ul>
+    </div>
+  </nav>
+</header>
+
+    
+    <main class="main">
+        <div class="main_sceen">
+            <div style="overflow:auto;">
+              <ul>
+                <li>Rick Sanchez</li>
+                <li>Morty Smith</li>
+                <li>Summer Smith</li>
+              </ul>
+              
+              
+
+            <script>
+              const result = {
+                  id: "1",
+                  name: "Rick Sanchez",
+                  image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+
+              }
+
+              const resolvers = {
+                  Query: {
+                    characters: () => result
+                  }
+              }
+
+              const result2 = {
+                  id: "2",
+                  name: "Morty Smith",
+                  image: "https://rickandmortyapi.com/api/character/avatar/2.jpeg"  
+              }
+
+              const resolvers2 = {
+                   Query: {
+                    characters: () => result2
+                  }
+              }
+              const result3 = {
+                id: "3",
+                name: "Summer Smith",
+                image: "https://rickandmortyapi.com/api/character/avatar/3.jpeg" 
+              }
+
+              const resolvers3 = {
+                   Query: {
+                    characters: () => result3
+                  }
+              }
+
+            </script> 
+          </div>
+        </div>
+    </main>
+</body>
+</html>
