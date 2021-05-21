@@ -55,17 +55,17 @@
     <script>
       function graphQLFetcher(graphQLParams) {
         return fetch(
-          'https://4ofastjhdnbmzns26lppkx2qpu.appsync-api.ap-northeast-2.amazonaws.com/graphql',
+          "https://4ofastjhdnbmzns26lppkx2qpu.appsync-api.ap-northeast-2.amazonaws.com/graphql",
           {
-            method: 'post',
+            method: "post",
             headers: {
-              Accept: 'application/json',
-              'Content-Type': 'application/json',
-              'x-api-key': 'da2-5lgtgu5ainh2djxdv2pkp6boxm',
+              Accept: "application/json",
+              "Content-Type": "application/json",
+              "x-api-key": "da2-5lgtgu5ainh2djxdv2pkp6boxm",
             },
             body: JSON.stringify(graphQLParams),
-            credentials: 'omit',
-          },
+            credentials: "omit",
+          }
         ).then(function (response) {
           return response.json().catch(function () {
             return response.text();
@@ -78,7 +78,7 @@
           fetcher: graphQLFetcher,
           defaultVariableEditorOpen: true,
         }),
-        document.getElementById('graphiql'),
+        document.getElementById("graphiql")
       );
     </script>
   </body>
