@@ -1,0 +1,26 @@
+{
+  "name": "Mirim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tportio/Mirim.git",
+  "author": "dayeon <dayeon2399@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.1.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "graphql-yoga": "^1.18.3",
+    "json-server": "^0.16.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^2.0.7"
+  }
+}
